@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public nome = "";
+  public deveMostrarNome = false;
   title = 'ngModel';
+
+  public apresentarNome() {
+    this.deveMostrarNome = true;
+  }
 }
